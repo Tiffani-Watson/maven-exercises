@@ -13,5 +13,15 @@ public class Main {
         if (StringUtils.isNumeric(input)) {
             System.out.println("\"" + input + "\" is a number");
         }
+        else {
+            System.out.println("\"" + input + "\" is not a number");
+        }
+
+        String flippedCase = StringUtils.swapCase(input);
+        System.out.println("Flipped Case: " + flippedCase);
+
+        String reversed = StringUtils.reverse(input);
+        System.out.println("Reversed: " + reversed);
     }
 }
+
